@@ -3,7 +3,7 @@ require "sinatra"
 require "sinatra/reloader"
 
 get "/" do
-  @title = "The Adventures of Sherlock Holmes"
+  @title = "Directory Index"
   # Alt: File.readlines('data/toc.txt') to array,
   # then use 'each' instead of 'each_line' in views/home.erb
   @author = "Sir Arthur Doyle"
